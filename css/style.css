@@ -27,8 +27,8 @@ p{
 }
 .right-cloud{
   position: absolute;
-  right: 180px;
-  top: 90px;
+  right: 10%;
+  top: 15%;
   height: 100px;
   width: 200px;
 }
@@ -36,15 +36,15 @@ p{
   height: 100px;
   width: 200px;
   position: absolute;
-  left: 200px;
-  bottom: 300px;
+  left: 20%;
+  bottom: 40%;
 }
 .cloud{
   height: 50px;
   width: 200px;
   position: absolute;
-  bottom: 200px;
-  right: 120px;
+  bottom: 30%;
+  right: 10%;
 }
 .mountain{
   height: 400px;
@@ -167,4 +167,13 @@ hr{
 .btn:active {
 	position:relative;
 	top:1px;
+}
+@media(max-width: 1265px){
+.left-cloud, .right-cloud{
+	width: 8rem;
+	height: 3rem;}
+.cloud{
+	width: 8rem;
+	height: 2rem;
+	}
 }
